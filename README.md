@@ -31,7 +31,7 @@ use]. <b>
 
 ## Getting Started
 -  <b> 1. &nbsp; Clone Git Repo  </b>
-    <br>----<i> git clone https://github.com/Sahil-Sayyad/Placement_Cell.git </i><br><br>
+    <br>----<i> git clone https://github.com/ajitkumarpal1/cm-Placement-Cell.git </i><br><br>
 -  <b> 2.  &nbsp;Install NPM dependencies </b>
    <br>----<i> npm install</i> <br><br>
 -  <b> 2.  &nbsp;Set Up .env file  </b>
@@ -66,38 +66,38 @@ use]. <b>
 
 ## Project Demo
  - <b> <i> Login Page  </i></b> <br><br>
- ![placement_cell_login](https://github.com/Sahil-Sayyad/Placement_Cell/assets/96423459/c630a65a-6272-4c82-b618-b6a29137f5fa)
+ ![placement_cell_login](https://github.com/ajitkumarpal1/cm-Placement-Cell/assets/96423459/c630a65a-6272-4c82-b618-b6a29137f5fa)
 
 -  <b> <i> Sign Up  Page  </i></b> <br><br>
-![Placement_cell_Signup](https://github.com/Sahil-Sayyad/Placement_Cell/assets/96423459/7695cf67-afe2-4899-b9fe-3f6e06e4c044)
+![Placement_cell_Signup](https://github.com/ajitkumarpal1/cm-Placement-Cell/assets/96423459/7695cf67-afe2-4899-b9fe-3f6e06e4c044)
 
 -  <b> <i> Forget Password Page  </i></b> <br><br>
 
-![Placement_Cell_forget](https://github.com/Sahil-Sayyad/Placement_Cell/assets/96423459/10010f56-0ef3-494c-bc11-03a63b8f7929)
+![Placement_Cell_forget](https://github.com/ajitkumarpal1/cm-Placement-Cell/assets/96423459/10010f56-0ef3-494c-bc11-03a63b8f7929)
 
 -  <b> <i> Home Page  </i></b> <br><br>
-![placement_cell_home](https://github.com/Sahil-Sayyad/Placement_Cell/assets/96423459/90576da3-65ef-4875-9fd8-9a3274a93bfc)
+![placement_cell_home](https://github.com/ajitkumarpal1/cm-Placement-Cell/assets/96423459/90576da3-65ef-4875-9fd8-9a3274a93bfc)
 
 -  <b> <i> Students Details  Page  </i></b> <br><br>
-![placement_cell_students](https://github.com/Sahil-Sayyad/Placement_Cell/assets/96423459/2d9ab7ef-9cb2-4eec-88e2-f149b7d7c75f)
+![placement_cell_students](https://github.com/ajitkumarpal1/cm-Placement-Cell/assets/96423459/2d9ab7ef-9cb2-4eec-88e2-f149b7d7c75f)
 
 -  <b> <i> Interviews Details  Page  </i></b> <br><br>
-![placement_Cell_interviews](https://github.com/Sahil-Sayyad/Placement_Cell/assets/96423459/9d57cb47-5943-4eac-9091-d24447928a7a)
+![placement_Cell_interviews](https://github.com/ajitkumarpal1/cm-Placement-Cell/assets/96423459/9d57cb47-5943-4eac-9091-d24447928a7a)
 
 -  <b> <i> Interviews Company Details  Page  </i></b> <br><br>
-![interview_company_details](https://github.com/Sahil-Sayyad/Placement_Cell/assets/96423459/c6870aff-001e-4d75-ad4d-56a82b89e746)
+![interview_company_details](https://github.com/ajitkumarpal1/cm-Placement-Cell/assets/96423459/c6870aff-001e-4d75-ad4d-56a82b89e746)
 
 -  <b> <i> Job Details  Page  </i></b> <br><br>
-![placement_Cell_JObs](https://github.com/Sahil-Sayyad/Placement_Cell/assets/96423459/b633c0d0-7e15-4a9b-8c79-8c34d5430dd8)
+![placement_Cell_JObs](https://github.com/ajitkumarpal1/cm-Placement-Cell/assets/96423459/b633c0d0-7e15-4a9b-8c79-8c34d5430dd8)
 
 -  <b> <i> CSV File  </i></b> <br><br>
 
-![placement_cell_CSV](https://github.com/Sahil-Sayyad/Placement_Cell/assets/96423459/58abc198-9f83-46c7-a33a-508ec541a669)
+![placement_cell_CSV](https://github.com/ajitkumarpal1/cm-Placement-Cell/assets/96423459/58abc198-9f83-46c7-a33a-508ec541a669)
 
 ## Author
 
 
-- Name: Sahil Sayyad
-- GitHub: <a><b>[https://github.com/Sahil-Sayyad](https://github.com/Sahil-Sayyad/Placement_Cell)</a></b>
+- Name: Ajit Kumar pal
+- GitHub: <a><b>[https://github.com/ajitkumarpal1](https://github.com/ajitkumarpal1/cm-Placement-Cell)</a></b>
 - Email: 
 - Website: 
