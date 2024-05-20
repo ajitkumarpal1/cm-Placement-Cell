@@ -46,9 +46,9 @@ module.exports.downloadCSV = async (req, res) => {
 
     const filePath = `${exportDir}/students.csv`;
     fs.writeFileSync(filePath, csvData);
-    console.log("=>>",path.resolve())
+    console.log("=>>",path.join(__dirname))
     return res.json({
-      downloadURL: `${process.env.BASE_URL}/files/export/students.csv`,
+      downloadURL: `../files/export/students.csv`,
     });
   } catch (err) {
     console.log(`Error in download CSV controller: ${err}`);

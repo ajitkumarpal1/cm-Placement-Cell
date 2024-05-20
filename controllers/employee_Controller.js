@@ -18,6 +18,7 @@ module.exports.signIn = async (req, res) => {
   }
   return res.render("sign_up", {
     title: "Placement Cell | Sign In",
+    layout:false
   });
 };
 
