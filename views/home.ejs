@@ -1,0 +1,35 @@
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Welcome To Placement Portal</h1>
+
+    <ul class="nav justify-content-between navbar-dark bg-dark text-light rounded-pill px-10 mx-10">
+        <% if(employee){ %>
+            <li class="nav-item">
+                <a class="nav-link" href="/profile">
+                    <%=employee.name %>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/employees/sign-out">Sign Out</a>
+            </li>
+            <% } else{%>
+                <li class="nav-item">
+                    <a class="nav-link" href="/employees/sign-up">Sign Up</a>
+                </li>
+                <% } %>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/students/">Students</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/interviews/">Interviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/jobs/fetch-jobs">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/students/">Download CSV</a>
+                    </li>
+    </ul>
+</div>
+
+<!-- JavaScript for flash messages -->
+<script>

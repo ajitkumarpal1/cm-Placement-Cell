@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CN Placement Cell | Interview</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Noty CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" />
+    <link rel="stylesheet" href="/stylesheets/profile.css">
+
+    <!-- Noty JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+
+    <!-- linking css stylesheets  -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- linking javascripts cdn for flash messages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+    <link rel="stylesheet" href="/stylesheets/interview.css">
+    <link rel="stylesheet" href="/stylesheets/student.css" />
+
+</head>
+
+<body>
+    <!-- header  -->
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg width="48px" height="48px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 392.663 392.663" xml:space="preserve">
+                    <polygon style="fill:#56ACE0;"
+                        points="167.758,310.432 147.588,350.901 244.945,350.901 224.776,310.432 " />
+                    <path style="fill:#FFFFFF;" d="M360.986,41.762H31.547c-5.301,0-9.632,4.331-9.632,9.632v227.556c0,5.301,4.331,9.632,9.632,9.632
+	h329.568c5.301,0,9.632-4.331,9.632-9.632V51.394C370.747,46.093,366.416,41.762,360.986,41.762z" />
+                    <path style="fill:#194F82;" d="M360.986,19.911H31.547C14.158,19.911,0,34.069,0,51.459v227.556
+	c0,17.39,14.158,31.547,31.547,31.547h111.903l-23.208,46.416c-3.62,7.24,1.616,15.774,9.762,15.774h132.655
+	c8.145,0,13.382-8.469,9.762-15.774l-23.208-46.416h111.903c17.39,0,31.547-14.158,31.547-31.547V51.459
+	C392.533,34.069,378.376,19.911,360.986,19.911z M370.747,279.014c0,5.301-4.331,9.632-9.632,9.632H31.547
+	c-5.301,0-9.632-4.331-9.632-9.632V51.459c0-5.301,4.331-9.632,9.632-9.632h329.568c5.301,0,9.632,4.331,9.632,9.632V279.014z
+	 M147.588,350.901l20.17-40.404h57.018l20.17,40.404H147.588z" />
+                    <path style="fill:#FFC10D;" d="M338.036,63.547H54.562c-6.012,0-10.925,4.848-10.925,10.925v1.422h25.277
+	c6.012,0,10.925,4.848,10.925,10.925c0,6.077-4.848,10.925-10.925,10.925H43.636v18.941h1.616c6.012,0,10.925,4.848,10.925,10.925
+	c0,6.012-4.848,10.925-10.796,10.925h-1.681v117.592c0,6.012,4.848,10.925,10.925,10.925h283.539
+	c6.012,0,10.925-4.848,10.925-10.925V74.473C349.026,68.461,344.048,63.547,338.036,63.547z" />
+                    <circle style="fill:#FFFFFF;" cx="188.38" cy="164.978" r="27.927" />
+                    <g>
+                        <path style="fill:#194F82;" d="M230.529,191.03c4.719-7.564,7.434-16.485,7.434-26.053c0-27.345-22.174-49.519-49.519-49.519
+		s-49.519,22.174-49.519,49.519c0,27.345,22.174,49.519,49.519,49.519c9.891,0,19.071-2.909,26.828-7.952l41.051,41.051
+		c4.267,4.267,11.119,4.267,15.451,0c4.267-4.202,4.267-11.055,0-15.386L230.529,191.03z M188.38,192.84
+		c-15.386,0-27.927-12.412-27.927-27.927c0-15.386,12.541-27.927,27.927-27.927s27.927,12.541,27.927,27.927
+		C216.307,180.364,203.766,192.84,188.38,192.84z" />
+                        <path style="fill:#194F82;" d="M74.667,136.598h27.604v43.636c0,11.766-7.758,13.576-10.667,13.576
+		c-6.077,0-11.96-3.038-17.519-9.051l-10.796,14.933c8.339,8.598,18.101,12.929,29.285,12.929c8.986,0,30.578-3.297,30.578-33.164
+		V118.82h-48.42v17.778H74.667z" />
+                        <path style="fill:#194F82;" d="M335.386,186.053c-0.259-19.523-19.006-22.497-19.006-22.497s13.77-3.232,13.77-20.17
+		c0-26.893-32.905-24.63-32.905-24.63h-36.331v93.22h40.792C337.002,213.01,335.386,186.053,335.386,186.053z M281.665,136.339
+		h0.065h9.956c6.723,0.323,17.131-0.84,16.937,10.214c0,5.43-1.228,9.891-17.067,9.891h-9.891L281.665,136.339L281.665,136.339z
+		 M295.952,194.327h-14.287v-21.463h12.283c8.275,0.388,20.105-0.453,19.846,10.602C313.859,187.733,313.277,194.65,295.952,194.327
+		z" />
+                    </g>
+                </svg>
+                <span class="ml-3 text-xl">CN Placement Cell</span>
+            </a>
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900" href="/">Home</a>
+                <a class="mr-5 hover:text-gray-900" href="/interviews/">Interviews</a>
+                <a class="mr-5 hover:text-gray-900" href="/students/">Students</a>
+                <a class="mr-5 hover:text-gray-900" href="/jobs/fetch-jobs">Jobs</a>
+                <a class="mr-5 hover:text-gray-900" href="/students/">Download CSV</a>
+
+            </nav>
+            <button
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a
+                    href="/employees/sign-out">Sign Out</a>
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <div class="min-h-screen">
+        <%-body%>
+    </div>
+
+    <!-- foooter  -->
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <svg width="48px" height="48px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 392.663 392.663" xml:space="preserve">
+                    <polygon style="fill:#56ACE0;"
+                        points="167.758,310.432 147.588,350.901 244.945,350.901 224.776,310.432 " />
+                    <path style="fill:#FFFFFF;" d="M360.986,41.762H31.547c-5.301,0-9.632,4.331-9.632,9.632v227.556c0,5.301,4.331,9.632,9.632,9.632
+	h329.568c5.301,0,9.632-4.331,9.632-9.632V51.394C370.747,46.093,366.416,41.762,360.986,41.762z" />
+                    <path style="fill:#194F82;" d="M360.986,19.911H31.547C14.158,19.911,0,34.069,0,51.459v227.556
+	c0,17.39,14.158,31.547,31.547,31.547h111.903l-23.208,46.416c-3.62,7.24,1.616,15.774,9.762,15.774h132.655
+	c8.145,0,13.382-8.469,9.762-15.774l-23.208-46.416h111.903c17.39,0,31.547-14.158,31.547-31.547V51.459
+	C392.533,34.069,378.376,19.911,360.986,19.911z M370.747,279.014c0,5.301-4.331,9.632-9.632,9.632H31.547
+	c-5.301,0-9.632-4.331-9.632-9.632V51.459c0-5.301,4.331-9.632,9.632-9.632h329.568c5.301,0,9.632,4.331,9.632,9.632V279.014z
+	 M147.588,350.901l20.17-40.404h57.018l20.17,40.404H147.588z" />
+                    <path style="fill:#FFC10D;" d="M338.036,63.547H54.562c-6.012,0-10.925,4.848-10.925,10.925v1.422h25.277
+	c6.012,0,10.925,4.848,10.925,10.925c0,6.077-4.848,10.925-10.925,10.925H43.636v18.941h1.616c6.012,0,10.925,4.848,10.925,10.925
+	c0,6.012-4.848,10.925-10.796,10.925h-1.681v117.592c0,6.012,4.848,10.925,10.925,10.925h283.539
+	c6.012,0,10.925-4.848,10.925-10.925V74.473C349.026,68.461,344.048,63.547,338.036,63.547z" />
+                    <circle style="fill:#FFFFFF;" cx="188.38" cy="164.978" r="27.927" />
+                    <g>
+                        <path style="fill:#194F82;" d="M230.529,191.03c4.719-7.564,7.434-16.485,7.434-26.053c0-27.345-22.174-49.519-49.519-49.519
+		s-49.519,22.174-49.519,49.519c0,27.345,22.174,49.519,49.519,49.519c9.891,0,19.071-2.909,26.828-7.952l41.051,41.051
+		c4.267,4.267,11.119,4.267,15.451,0c4.267-4.202,4.267-11.055,0-15.386L230.529,191.03z M188.38,192.84
+		c-15.386,0-27.927-12.412-27.927-27.927c0-15.386,12.541-27.927,27.927-27.927s27.927,12.541,27.927,27.927
+		C216.307,180.364,203.766,192.84,188.38,192.84z" />
+                        <path style="fill:#194F82;" d="M74.667,136.598h27.604v43.636c0,11.766-7.758,13.576-10.667,13.576
+		c-6.077,0-11.96-3.038-17.519-9.051l-10.796,14.933c8.339,8.598,18.101,12.929,29.285,12.929c8.986,0,30.578-3.297,30.578-33.164
+		V118.82h-48.42v17.778H74.667z" />
+                        <path style="fill:#194F82;" d="M335.386,186.053c-0.259-19.523-19.006-22.497-19.006-22.497s13.77-3.232,13.77-20.17
+		c0-26.893-32.905-24.63-32.905-24.63h-36.331v93.22h40.792C337.002,213.01,335.386,186.053,335.386,186.053z M281.665,136.339
+		h0.065h9.956c6.723,0.323,17.131-0.84,16.937,10.214c0,5.43-1.228,9.891-17.067,9.891h-9.891L281.665,136.339L281.665,136.339z
+		 M295.952,194.327h-14.287v-21.463h12.283c8.275,0.388,20.105-0.453,19.846,10.602C313.859,187.733,313.277,194.65,295.952,194.327
+		z" />
+                    </g>
+                </svg>
+                <span class="ml-3 text-xl">CN Placement Cell</span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+                2023 CN Placement Cell
+                <a href="/" class="text-gray-600 ml-1 " rel="noopener noreferrer">Home</a>
+                <a href="/interviews/" class="text-gray-600 ml-1" rel="noopener noreferrer">Interviews</a>
+                <a href="/students/" class="text-gray-600 ml-1" rel="noopener noreferrer">Students</a>
+                <a href="/jobs/fetch-jobs" class="text-gray-600 ml-1" rel="noopener noreferrer">Jobs</a>
+                <a href="/students/" class="text-gray-600 ml-1" rel="noopener noreferrer">Download-CSV</a>
+
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path
+                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none"
+                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                        </path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>
