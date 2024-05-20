@@ -99,5 +99,5 @@ use]. <b>
 
 - Name: Ajit Kumar pal
 - GitHub: <a><b>[https://github.com/ajitkumarpal1](https://github.com/ajitkumarpal1/cm-Placement-Cell)</a></b>
-- Email: 
-- Website: 
+- Email: <strong>palajit29@gmail.com</strong>
+- Website: <a href="https://cm-placement-cell.onrender.com/employees/sign-in">https://cm-placement-cell.onrender.com/employees/sign-in</a>
