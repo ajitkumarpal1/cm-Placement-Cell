@@ -2,6 +2,8 @@
 require("dotenv").config();
 const cookieParser = require("cookie-parser");
 const express = require("express");
+const express = require('express')
+const cors = require('cors')
 const app = express();
 const port = process.env.PORT || 8000;
 require("./config/mongoose");
@@ -13,6 +15,9 @@ const flash = require("connect-flash");
 const customMware = require("./config/middleware");
 const expressLayouts = require('express-ejs-layouts');
 
+app.use(cors({
+  origin:"*"
+}))
 //for parsing the form data
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
